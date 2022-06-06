@@ -1,0 +1,59 @@
+@media screen and (max-width:1140px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+        height: auto;
+    }
+
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-right{
+        display: none;
+    }
+    .content-left {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-articles{
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-article-content {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .post-img{
+        display: none;
+    }
+
+    .contact-form .form-box{
+        width: 70vw;
+        overflow: hidden;
+    }
+    
+    .name{
+        flex-direction: column;
+    }
+
+    textarea{
+        
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+}
